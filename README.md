@@ -14,9 +14,11 @@ ____
 # App Arquitecture
 ____
 + MVC
++ UIKit 
 + Firebase IOS SDK
 + Firebase Realtime Database
 + Firebase Authentication
++ SafariServices
 + Progress Hub
 
 ## Application ScreenShots
