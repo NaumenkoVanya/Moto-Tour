@@ -13,6 +13,7 @@
 		CA9ACC5D28421FD500C43F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9ACC5B28421FD500C43F65 /* Main.storyboard */; };
 		CA9ACC5F28421FD700C43F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9ACC5E28421FD700C43F65 /* Assets.xcassets */; };
 		CA9ACC6228421FD700C43F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9ACC6028421FD700C43F65 /* LaunchScreen.storyboard */; };
+		CA9ACC7828422E5000C43F65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA9ACC7728422E5000C43F65 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CA9ACC5E28421FD700C43F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA9ACC6128421FD700C43F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA9ACC6328421FD700C43F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9ACC7728422E5000C43F65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				CA9ACC5B28421FD500C43F65 /* Main.storyboard */,
 				CA9ACC5E28421FD700C43F65 /* Assets.xcassets */,
 				CA9ACC6028421FD700C43F65 /* LaunchScreen.storyboard */,
+				CA9ACC7728422E5000C43F65 /* GoogleService-Info.plist */,
 				CA9ACC6328421FD700C43F65 /* Info.plist */,
 			);
 			path = MotoTour;
@@ -83,6 +86,8 @@
 			dependencies = (
 			);
 			name = MotoTour;
+			packageProductDependencies = (
+			);
 			productName = MotoTour;
 			productReference = CA9ACC5228421FD500C43F65 /* MotoTour.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,8 @@
 				Base,
 			);
 			mainGroup = CA9ACC4928421FD500C43F65;
+			packageReferences = (
+			);
 			productRefGroup = CA9ACC5328421FD500C43F65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA9ACC6228421FD700C43F65 /* LaunchScreen.storyboard in Resources */,
+				CA9ACC7828422E5000C43F65 /* GoogleService-Info.plist in Resources */,
 				CA9ACC5F28421FD700C43F65 /* Assets.xcassets in Resources */,
 				CA9ACC5D28421FD500C43F65 /* Main.storyboard in Resources */,
 			);
@@ -287,6 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY6BU9F56X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MotoTour/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY6BU9F56X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MotoTour/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
